@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add css class to animation with ease-in-out and duration 300ms */
+@layer utilities {
+  .animate-item {
+    transition: all 300ms ease-in-out;
+  }
+}
+
+body {
+  @apply bg-indigo-950;
+}
+
+/* In your CSS file or Tailwind CSS configuration */
+.animate-item {
+  animation: example-animation 1s ease-in-out;
+}
+
+@keyframes example-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
