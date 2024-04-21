@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 .bg-cover-image {
-    background-image: url('/cover.jpeg');
+    background-image: url('/Cover.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
